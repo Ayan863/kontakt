@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#root{
+  background-color: #F3F3F3;
+}
+.selling button{
+  border: 3px;
+  padding: 10px;
+  background-color: #eaeaea;
+  border-radius: 24px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family: Montserrat,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  transition: .4s all;
+}
+.selling button:hover{
+  background-color: #323232;
+  color: white;
+}
+.card:hover .other{
+
+    visibility: visible !important;
+    display: block !important;
+
+}
+/* .card:hover{
+  padding-bottom: 7rem;
+} */
