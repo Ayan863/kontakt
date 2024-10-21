@@ -1,21 +1,18 @@
 import { useState } from 'react';
 
-
 const Language = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => setIsOpen(!isOpen);
 
   return (
-    <div className=" flex   text-center place-content-center">
-     
-
-      <div className=" relative inline-block text-right">
+    <div className="flex text-center place-content-center">
+      <div className="relative inline-block text-right">
         <div>
           <button
             type="button"
             onClick={toggleDropdown}
-            className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+            className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white  py-2 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-50"
             id="menu-button"
             aria-expanded={isOpen}
             aria-haspopup="true"
@@ -38,14 +35,14 @@ const Language = () => {
 
         {isOpen && (
           <div
-            className=" absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+            className="absolute right-0 z-10 mt-2 w-40 origin-top-right rounded-md bg-white shadow-lg focus:outline-none"
             role="menu"
             aria-orientation="vertical"
             aria-labelledby="menu-button"
             tabIndex="-1"
           >
-            <div className="py-1 rounded-md  " role="none">
-              <a href="#" className="block  text-left  px-4 py-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="menu-item-1">RU</a>
+            <div className="py-1 rounded-md" role="none">
+              <a href="#" className="block text-left px-4 py-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="menu-item-1">RU</a>
             </div>
           </div>
         )}

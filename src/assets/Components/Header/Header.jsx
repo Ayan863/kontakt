@@ -53,7 +53,7 @@ const Header = () => {
           </li>
         </ul>
         <ul className="profInfo flex items-center font-montserrat text-base">
-          <a className="px-2 font-bold text-lg" href="#">
+          <a className="px-2 font-bold text-lg" href="tel:6060">
             <span className="text-red-800">*</span>6060
           </a>
           <div className="profInfoBtns mx-6 gap-2 hidden md:flex">
