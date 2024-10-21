@@ -50,7 +50,7 @@ const Slider = () => {
         <>
         <Header/>
     <main>
-      <section className="flex flex-col gap-4 justify-center items-center  ">
+      <section id="kopo"  className="flex flex-col gap-4 justify-center items-center  ">
         <div className="secTop bg-white w-11/12 h-20 flex  items-center">
           <h3 className="p-3">Korporativ satışlar</h3>
         </div>
