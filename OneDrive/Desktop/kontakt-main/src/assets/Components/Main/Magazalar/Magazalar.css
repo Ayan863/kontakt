@@ -1,0 +1,54 @@
+.magazalar {
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.magazalar-top {
+    width: 90%;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+.magazalar-h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #111827;
+    font-family: montserrat, sans-serif;
+    margin-left: 20px;
+    
+}
+
+.map-magaza {
+    overflow: hidden;
+    /* padding-bottom: 10%; */
+    position: relative;
+    height: 0;
+    width: 90%;
+    height: 660px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+
+
+.map-iframe{
+    /* left: 0;
+    top: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute; */
+  cursor: url("https://maps.gstatic.com/mapfiles/openhand_8_8.cur")  
+}
