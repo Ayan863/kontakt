@@ -41,7 +41,7 @@ const Header = () => {
         </div>
         <ul className="navigation hidden lg:flex gap-6 font-montserrat text-base font-bold">
           <li>
-            <a className="text-red-500" href="#" onClick={()=>navigate("/kampaniyalar")}>
+            <a className="text-red-500 bg-red-600" href="#" onClick={()=>navigate("/kampaniyalar")}>
               Kampaniya
             </a>
           </li>
