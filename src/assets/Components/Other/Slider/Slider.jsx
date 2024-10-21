@@ -1,6 +1,6 @@
 // import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Scrollbar, A11y } from "swiper/modules";
+import { Navigation, Scrollbar, A11y,Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -71,9 +71,11 @@ export default function Slider() {
   ];
   return (
     <Swiper
-      modules={[Navigation, Scrollbar, A11y]}
+      modules={[Navigation, Scrollbar, A11y,Autoplay]}
       spaceBetween={50} 
       slidesPerView={10} 
+      autoplay={{ delay: 3000, disableOnInteraction: false }}
+
       // pagination={{ clickable: true }} 
       loop={true} 
       className="p-3 flex justify-center items-center w-[93%] mb-3 bg-white rounded-md"

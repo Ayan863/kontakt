@@ -1,11 +1,11 @@
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Scrollbar, A11y, Autoplay } from "swiper/modules";
+import { Navigation, Scrollbar, A11y,Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Modal, ModalClose, ModalDialog, Typography } from "@mui/joy";
-import { useState } from "react";
 
 export default function Videos() {
   const [open, setOpen] = useState(false);
@@ -35,28 +35,32 @@ export default function Videos() {
   ];
 
   const handleVideoClick = (videoUrl) => {
-    setCurrentVideo(videoUrl);
-    setOpen(true);
+    setCurrentVideo(videoUrl); // Tıklanan videoyu kaydediyoruz
+    setOpen(true); // Modalı açıyoruz
   };
 
   return (
     <>
-        <p className="w-[95%] m-auto text-[20px] text-[Montserrat,sans-serif] font-semibold p-4">Kontakt TV</p>
+      <p className="w-[95%] m-auto text-[20px] text-[Montserrat,sans-serif] font-semibold p-4">
+      Kontakt TV
+      </p>
+
       <Swiper
-        modules={[Navigation, Scrollbar, A11y, Autoplay]}
+        modules={[Navigation, Scrollbar, A11y,Autoplay]}
         spaceBetween={50}
         slidesPerView={4}
         loop={true}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
+        loopedSlides={5} 
         className="p-3 flex justify-center items-center w-[93%] mb-3 bg-white rounded-md"
       >
-
         {equipments &&
           equipments.map((item) => (
             <SwiperSlide key={item.id}>
+              {/* iframe'i bir div ile saralım */}
               <div
                 onClick={() => handleVideoClick(item.video)}
-                style={{ cursor: "pointer" }}
+                style={{ cursor: "pointer", position: "relative" }}
               >
                 <iframe
                   width="300"
@@ -66,16 +70,28 @@ export default function Videos() {
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
+                  style={{ pointerEvents: "none" }} // iframe içindeki etkileşimi engelliyoruz
                 ></iframe>
+                <div
+                  style={{
+                    position: "absolute",
+                    top: 0,
+                    left: 0,
+                    width: "100%",
+                    height: "100%",
+                    backgroundColor: "transparent",
+                  }}
+                ></div>
               </div>
             </SwiperSlide>
           ))}
       </Swiper>
 
+      {/* Modal yapısı */}
       <Modal open={open} onClose={() => setOpen(false)}>
         <ModalDialog layout="center" size="lg">
           <ModalClose />
-          <Typography component="h2">Video</Typography>
+          <Typography component="h2"><img src="http://localhost:5175/src/assets/Components/Pages/img/logo.svg" alt="kontakt" /></Typography>
           <iframe
             width="600"
             height="400"

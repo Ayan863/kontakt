@@ -20,18 +20,20 @@ import { HiOutlineLightBulb } from "react-icons/hi";
 import { BsGiftFill } from "react-icons/bs";
 import { IoIosArrowForward } from "react-icons/io";
 import  "./firstSection.css"
+import { useNavigate } from "react-router-dom";
 
 
 
 
 const FirstSection = () => {
+  const navigate=useNavigate()
   return (
     <section className='firstSection flex justify-between px-8 py-5'>
       <div className="sideBar w-[20%] h-[595px] overflow-y-scroll bg-white rounded-xl">
         <ul className='sideLinks px-4 py-2 '>
             <li> <a href="#"> <i>1+1</i>Birlikdə al</a><i className='opacity-50'><IoIosArrowForward/></i></li>
-            <li> <a href="#"> <i><MdOutlinePhoneAndroid/></i>Smartfonlar və aksesuarlar</a><i className='opacity-50'><IoIosArrowForward/></i></li>
-            <li> <a href="#"> <i><BsSmartwatch/></i>Smart qadjetlər</a><i className='opacity-50'><IoIosArrowForward/></i></li>
+            <li> <a href="#" onClick={()=>navigate("/smartfon")}> <i><MdOutlinePhoneAndroid/></i>Smartfonlar və aksesuarlar</a><i className='opacity-50'><IoIosArrowForward/></i></li>
+            <li> <a href="#" onClick={()=>navigate("/smartQadjetler")}> <i><BsSmartwatch/></i>Smart qadjetlər</a><i className='opacity-50'><IoIosArrowForward/></i></li>
             <li> <a href="#"> <i><MdComputer/></i>Notbuklar, PK, planşetlər</a><i className='opacity-50'><IoIosArrowForward/></i></li>
             <li> <a href="#"> <i><CgGames/></i>Geymerlər üçün məhsullar</a><i className='opacity-50'><IoIosArrowForward/></i></li>
             <li> <a href="#"> <i><HiOutlineTv/></i>TV, audio və foto</a><i className='opacity-50'><IoIosArrowForward/></i></li>

@@ -1,0 +1,330 @@
+
+
+.telefoniyaName  {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+    line-height: 30px;
+    letter-spacing: -.03em;
+    display: flex;
+    padding: 0 40px;
+    height: 70px;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 17px;
+}
+h2{
+   
+}
+.telefoniya{
+    width: 95%;
+    
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.telefoniyaItems{
+  
+    
+    gap: 10px;
+    
+
+}
+.telefoniyaItems .flex{
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: calc((100% - 50px) / 6);
+    margin: 0 0 10px;
+    font-size: 12px;
+    display: flex;
+    margin-bottom: 0;
+
+}
+.telefoniyaItems .flex img{
+    vertical-align: middle;
+    display: inline-block;
+
+    max-width: 100%;
+}
+
+.telefoniyaItems .flex span{
+    font-size: 16px;
+}
+.topSatis{
+    width: 100%;
+}
+.topSatis div h2{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+    line-height: 30px;
+    letter-spacing: -.03em;
+    display: flex;
+    padding: 0 40px;
+    height: 70px;
+    align-items: end;
+    
+    margin-bottom: 17px;
+
+}
+.topSatisItems{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1-smartfon {
+    width: 340px;
+    height: 369px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+    transition: 0.5s;
+  
+}
+
+
+
+.card1-smartfon-sub {
+   
+    height: 359px;
+}
+
+.card1-smartup {
+    width: 216px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.card1-time {
+    width: 108.45px;
+    height: 20px;
+    color: #17a539;
+    background-color: #edf8f0;
+    align-items: center;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -.02em;
+    line-height: 12px;
+    padding: 4px 6px;
+    border: none !important;
+    
+}
+.time-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: montserrat, sans-serif;
+}
+
+.truck-icon {
+    color: black;
+    width: 20px;
+    height: 12px;
+}
+
+.card1-compare {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+
+.compare {
+    width: 20px;
+    height: 18px;
+}
+
+.card1-smartfon-mid {
+  
+    height: 138px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-img  {
+ 
+    object-fit: cover;
+    width: 224px;
+    height: 224px;
+}
+
+.smartfon-title {
+   
+    height: 33px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    font-family: montserrat, sans-serif;
+    color: #323232;
+    margin-top: 8px;
+}
+
+.discount-smartfon {
+    width: 216px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+.smartfon-discount-sub {
+    width: 45.86px;
+    height: 20px;
+    color: #fff;
+    background: #ff003c;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    letter-spacing: -.02em;
+    line-height: 12px;
+    padding: 4px 6px;
+    border: none !important;
+}
+
+.active-price {
+   
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 6px;
+}
+
+.price-side {
+    width: 72.89px;
+    height: 34px;
+}
+
+.price-i{
+    display: block;
+    font-style: normal;
+    text-decoration-line: line-through;
+    color: #777;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -.02em;
+    font-weight: 500;
+    font-family: montserrat, sans-serif;
+}
+
+.price-b {
+    font-family: montserrat, sans-serif;
+    color: #ff003c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -.02em;
+}
+
+.duration {
+    font-family: montserrat, sans-serif;
+    width: 49.6px;
+    height: 20px;
+    font-size: 12px;
+    color: #323232;
+    font-weight: 600;
+    letter-spacing: -.02em;
+    line-height: 20px;
+}
+
+.card1-actions {
+   
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    visibility: hidden;
+    border-radius: 40%;
+    
+}
+.allItems:hover{
+    transition: 0.5s;
+    .card1-actions{visibility: visible;}
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+
+}
+
+.heart-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.heart-iconsub {
+    font-size: 20px;
+    /* color: #1D4ED8D9; */
+    color: #323232;;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+}
+
+.action-btn {
+    width: 170px;
+    height: 36px;
+    border-radius: 10px;
+    background: #ff003c;
+    color: #fff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.btn-text {
+font-size: 14px;
+font-family: montserrat, sans-serif;
+font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 20px;
+}
+/* .card1-actions{ 
+    display: none;
+}
+.card1-smartfon :hover{
+    .card1-actions{display: block;}
+    
+} */
+
+@media(max-width:1024px){
+    .telefoniyaItems{
+       
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .telefoniyaItems .flex{
+        background-color: #fff;
+        width: 80%;
+    }
+} 

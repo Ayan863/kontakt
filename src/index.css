@@ -1,8 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 #root{
   background-color: #F3F3F3;
+  font-family: montserrat, sans-serif;
 }
 .selling button{
   border: 3px;
@@ -26,6 +28,3 @@
     display: block !important;
 
 }
-/* .card:hover{
-  padding-bottom: 7rem;
-} */

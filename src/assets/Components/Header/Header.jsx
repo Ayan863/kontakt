@@ -12,7 +12,9 @@ import { FaRegEyeSlash } from "react-icons/fa";
 import { FaRegEye } from "react-icons/fa";
 import { FaRegUser } from "react-icons/fa";
 import  "../Header/header.css"
-
+import { useNavigate } from "react-router-dom";
+import Odenis from "../Main/odenis/Odenis";
+import Language from "../Main/lang/Language"
 
 
 const Header = () => {
@@ -26,6 +28,7 @@ const Header = () => {
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword); 
   };
+  const navigate=useNavigate()
   return (
    <>   
     <header>
@@ -34,19 +37,19 @@ const Header = () => {
       </div>
       <div className="headerMiddle w-full flex justify-between items-center bg-white px-7 py-5 border-b-2">
         <div className="logo w-[26%]">
-          <img className="" src={logo} alt="" />
+          <img className="cursor-pointer" src={logo} alt="" onClick={()=>navigate("/")}/>
         </div>
         <ul className="navigation hidden lg:flex gap-6 font-montserrat text-base font-bold">
           <li>
-            <a className="text-red-500" href="#">
+            <a className="text-red-500" href="#" onClick={()=>navigate("/kampaniyalar")}>
               Kampaniya
             </a>
           </li>
           <li>
-            <a href="#">Mağazalar</a>
+            <a href="#" onClick={()=>navigate("/magazalar")}>Mağazalar</a>
           </li>
           <li>
-            <a href="#">Korporativ satışlar</a>
+            <a href="#" onClick={()=>navigate("/korporativ")}>Korporativ satışlar</a>
           </li>
         </ul>
         <ul className="profInfo flex items-center font-montserrat text-base">
@@ -54,17 +57,13 @@ const Header = () => {
             <span className="text-red-800">*</span>6060
           </a>
           <div className="profInfoBtns mx-6 gap-2 hidden md:flex">
-            <button className="payMouth border border-green-500 rounded-md p-1 text-green-500">Aylıq Ödəniş</button>
+            <button className="payMouth border border-green-500 rounded-md p-1 text-green-500" ><Odenis/></button>
+
             <button className="login font-semibold" onClick={toggleModal}>Daxil ol</button>
           </div>
-          <ul className="lang flex items-center flex-col">
-            <li className="dropdown relative font-bold">
-              <a className="flex px-2" href="#">AZ &#129171;</a>
-              <ul className="child absolute hidden">
-                <li><a href="#">EN</a></li>
-              </ul>
-            </li>            
-          </ul>
+          <Language/>
+
+
           <ul className="USER flex px-2 md:hidden">
              <li className=" text-xl" onClick={toggleModal}><a href="#"><FaRegUser/></a></li>
           </ul>
@@ -84,7 +83,7 @@ const Header = () => {
         <div className="cartHistory flex items-center gap-5 text-2xl">
             <span className="hidden md:flex p-2"><GiScales /></span>
             <span className="hidden md:flex border-x-2 p-2"><CiHeart /></span>
-            <span className="p-2"><FiShoppingCart /></span>            
+            <span className="p-2" ><FiShoppingCart /></span>            
         </div>
       </div>
     </header>

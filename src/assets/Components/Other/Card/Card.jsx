@@ -1,7 +1,3 @@
-import { CiHeart } from "react-icons/ci";
-import { FaCartShopping } from "react-icons/fa6";
-import { LuScale } from "react-icons/lu";
-
 const Card = ({ image, title, firstPrice, lastPrice, sale }) => {
   return (
     <>
