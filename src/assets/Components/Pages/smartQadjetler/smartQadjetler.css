@@ -4,6 +4,7 @@
     font-weight: 600;
     font-size: 20px;
     margin: 0;
+    margin-top: 6px;
     line-height: 30px;
     letter-spacing: -.03em;
     display: flex;
@@ -12,8 +13,13 @@
     align-items: center;
     background-color: white;
     margin-bottom: 17px;
+  top: 0;
+  position: sticky;
 }
-h2{
+
+
+
+.telefoniyaName h2{
    
 }
 .telefoniya{
@@ -75,9 +81,9 @@ h2{
     display: flex;
     flex-wrap: wrap;
 }
-.card1-smartfon {
+.cardd1-smartfon {
     width: 340px;
-    height: 369px;
+    height: 409px;
     background-color: #fff;
     border-radius: 10px;
     display: flex;
@@ -85,17 +91,19 @@ h2{
     align-items: end;
     cursor: pointer;
     transition: 0.5s;
+    padding-bottom: 20px;
   
 }
 
 
 
-.card1-smartfon-sub {
-   
+.cardd1-smartfon-sub {
+   width: 90%;
     height: 359px;
+    padding-top: 20px;
 }
 
-.card1-smartup {
+.cardd1-smartup {
     width: 216px;
     height: 30px;
     display: flex;
@@ -103,7 +111,7 @@ h2{
     align-items: start;
 }
 
-.card1-time {
+.cardd1-time {
     width: 108.45px;
     height: 20px;
     color: #17a539;
@@ -137,22 +145,24 @@ h2{
     height: 12px;
 }
 
-.card1-compare {
-    width: 24px;
-    height: 24px;
+.cardd1-compare {
+    width: 44px;
+    height: 44px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #f3f3f3;
     border-radius: 5px;
+
 }
 
 .compare {
-    width: 20px;
-    height: 18px;
+    width: 23px;
+    height: 23px;
+    
 }
 
-.card1-smartfon-mid {
+.cardd1-smartfon-mid {
   
     height: 138px;
     display: flex;
@@ -160,23 +170,29 @@ h2{
     align-items: center;
 }
 
-.mid-img  {
- 
+.mid-img {
+    width: 138px;
+    height: 138px;
     object-fit: cover;
-    width: 224px;
-    height: 224px;
 }
 
 .smartfon-title {
-   
+   width: 97%;
+   text-align: center;
     height: 33px;
-    font-size: 12px;
+  
     line-height: 16px;
     font-weight: 500;
     letter-spacing: -0.02em;
     font-family: montserrat, sans-serif;
     color: #323232;
     margin-top: 8px;
+
+
+   
+   
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .discount-smartfon {
@@ -204,7 +220,8 @@ h2{
 }
 
 .active-price {
-   
+    text-align: center;
+   width: 93%;
     height: 34px;
     display: flex;
     justify-content: space-between;
@@ -249,7 +266,7 @@ h2{
     line-height: 20px;
 }
 
-.card1-actions {
+.cardd1-actions {
    
     height: 36px;
     display: flex;
@@ -258,19 +275,23 @@ h2{
     margin-top: 30px;
     visibility: hidden;
     border-radius: 40%;
+    width: 100%;
+    margin-bottom: 30px;
+   padding-right: 10px;
+   gap: 5px;
     
 }
 .allItems:hover{
-    transition: 0.5s;
-    .card1-actions{visibility: visible;}
+    transition: 0.1s;
+    .cardd1-actions{visibility: visible;}
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 
 }
 
 .heart-icon {
-    width: 36px;
-    height: 36px;
+    width: 45px;
+    height: 45px;
     border-radius: 10px;
     background-color: #f3f3f3;
     display: flex;
@@ -280,7 +301,7 @@ h2{
 }
 
 .heart-iconsub {
-    font-size: 20px;
+    font-size: 25px;
     /* color: #1D4ED8D9; */
     color: #323232;;
     font-family: montserrat, sans-serif;
@@ -288,8 +309,9 @@ h2{
 }
 
 .action-btn {
-    width: 170px;
-    height: 36px;
+
+    width: 220px;
+    height: 44px;
     border-radius: 10px;
     background: #ff003c;
     color: #fff;
@@ -308,11 +330,11 @@ font-weight: 500;
     letter-spacing: -0.02em;
     line-height: 20px;
 }
-/* .card1-actions{ 
+/* .cardd1-actions{ 
     display: none;
 }
-.card1-smartfon :hover{
-    .card1-actions{display: block;}
+.cardd1-smartfon :hover{
+    .cardd1-actions{display: block;}
     
 } */
 

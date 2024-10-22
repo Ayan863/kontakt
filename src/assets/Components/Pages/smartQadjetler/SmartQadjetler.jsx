@@ -1,6 +1,6 @@
 import Footer from "../../Footer/Footer";
 import Header from "../../Header/Header";
-import "../smartfon&aksesuar/smartfon.css";
+import "../smartQadjetler/smartQadjetler.css";
 import { IoIosHeartEmpty } from "react-icons/io";
 
 const Smartfon = () => {
@@ -85,19 +85,19 @@ const Smartfon = () => {
               {" "}
               <h2>Top satılanlar</h2>
             </div>
-            <div className="topSatisItems flex gap-5 justify-center ">
-              <div className="allItems rounded-lg">
-                <div className="card1-smartfon">
-                  <div className="card1-smartfon-sub">
+            <div className="topSatisItems flex gap-2  pl-14 ">
+              <div className="allItems rounded-lg ">
+                <div className="cardd1-smartfon ">
+                  <div className="cardd1-smartfon-sub">
                     <div
                       style={{ display: "flex", justifyContent: "end" }}
-                      className="card1-smartup"
+                      className="cardd1-smartup"
                     ></div>
 
-                    <div className="card1-smartfon-mid">
+                    <div className="cardd1-smartfon-mid">
                       <img
                         className="mid-img w-52 h-52 "
-                        src="https://kontakt.az/media/catalog/product/cache/ec3348cd707f11bd7a951e83328510dc/t/m/tm-dg-acs-1109-tw-04656-d8de54b1.webp"
+                        src="https://kontakt.az/media/catalog/product/cache/ec3348cd707f11bd7a951e83328510dc/n/e/new-project-2023-08-03t105932.420_png-71435bc3.webp"
                         alt=""
                       />
                     </div>
@@ -121,12 +121,12 @@ const Smartfon = () => {
                     </div>
                   </div>
                 </div>
-                <div className="card1-actions  flex pl-5 bg-white  ">
+                <div className="cardd1-actions  flex pl-5 bg-white  ">
                   <div className="heart-icon">
                     <IoIosHeartEmpty className="heart-iconsub" />
                   </div>
 
-                  <div className="card1-compare">
+                  <div className="cardd1-compare">
                     <img
                       className="compare"
                       src="https://kontakt.az/static/version1729078510/frontend/Swissup/breeze-customized/az_Latn_AZ/images/icon/compare.svg"
@@ -146,17 +146,17 @@ const Smartfon = () => {
               </div>
 
               <div className="allItems rounded-lg  ">
-                <div className="card1-smartfon">
-                  <div className="card1-smartfon-sub">
+                <div className="cardd1-smartfon">
+                  <div className="cardd1-smartfon-sub">
                     <div
                       style={{ display: "flex", justifyContent: "end" }}
-                      className="card1-smartup"
+                      className="cardd1-smartup"
                     ></div>
 
-                    <div className="card1-smartfon-mid">
+                    <div className="cardd1-smartfon-mid">
                       <img
                         className="mid-img w-52 h-52"
-                        src="https://kontakt.az/media/catalog/product/cache/ec3348cd707f11bd7a951e83328510dc/n/e/new_project_48__7-8455e94a.webp"
+                        src="https://kontakt.az/media/catalog/product/cache/ec3348cd707f11bd7a951e83328510dc/3/0/30063292bb-6639cff6.webp"
                         alt=""
                       />
                     </div>
@@ -180,12 +180,12 @@ const Smartfon = () => {
                     </div>
                   </div>
                 </div>
-                <div className="card1-actions  flex pl-5 bg-white  ">
+                <div className="cardd1-actions  flex pl-5 bg-white  ">
                   <div className="heart-icon">
                     <IoIosHeartEmpty className="heart-iconsub" />
                   </div>
 
-                  <div className="card1-compare">
+                  <div className="cardd1-compare">
                     <img
                       className="compare"
                       src="https://kontakt.az/static/version1729078510/frontend/Swissup/breeze-customized/az_Latn_AZ/images/icon/compare.svg"
@@ -204,17 +204,17 @@ const Smartfon = () => {
                 </div>
               </div>
               <div className="allItems rounded-lg  ">
-                <div className="card1-smartfon">
-                  <div className="card1-smartfon-sub">
+                <div className="cardd1-smartfon">
+                  <div className="cardd1-smartfon-sub">
                     <div
                       style={{ display: "flex", justifyContent: "end" }}
-                      className="card1-smartup"
+                      className="cardd1-smartup"
                     ></div>
 
-                    <div className="card1-smartfon-mid">
+                    <div className="cardd1-smartfon-mid">
                       <img
                         className="mid-img w-52 h-52"
-                        src="https://kontakt.az/media/catalog/product/cache/ec3348cd707f11bd7a951e83328510dc/t/m/tm-dg-acs-1109-tw-0561_1-bcd31036.webp"
+                        src="https://kontakt.az/media/catalog/product/cache/ec3348cd707f11bd7a951e83328510dc/t/m/tm-dg-smw-1106-bw-0002-1-b53b4b81.webp"
                         alt=""
                       />
                     </div>
@@ -238,12 +238,12 @@ const Smartfon = () => {
                     </div>
                   </div>
                 </div>
-                <div className="card1-actions  flex pl-5 bg-white  ">
+                <div className="cardd1-actions  flex pl-5 bg-white  ">
                   <div className="heart-icon">
                     <IoIosHeartEmpty className="heart-iconsub" />
                   </div>
 
-                  <div className="card1-compare">
+                  <div className="cardd1-compare">
                     <img
                       className="compare"
                       src="https://kontakt.az/static/version1729078510/frontend/Swissup/breeze-customized/az_Latn_AZ/images/icon/compare.svg"
@@ -261,64 +261,7 @@ const Smartfon = () => {
                   </button>
                 </div>
               </div>
-              <div className="allItems rounded-lg  ">
-                <div className="card1-smartfon">
-                  <div className="card1-smartfon-sub">
-                    <div
-                      style={{ display: "flex", justifyContent: "end" }}
-                      className="card1-smartup"
-                    ></div>
 
-                    <div className="card1-smartfon-mid">
-                      <img
-                        className="mid-img w-52 h-52"
-                        src="https://kontakt.az/media/catalog/product/cache/ec3348cd707f11bd7a951e83328510dc/t/m/tm-dg-acs-1109-tw-0561_1-bcd31036.webp"
-                        alt=""
-                      />
-                    </div>
-
-                    <p className="smartfon-title mt-20">
-                      Qulaqlıq HUAWEI FreeClip Black 55037247
-                    </p>
-                    <div className="discount-smartfon">
-                      <span className="smartfon-discount-sub">-50₼</span>
-                    </div>
-
-                    <div className="active-price">
-                      <div className="price-side">
-                        <strong>
-                          <i className="price-i">399,99 ₼</i>
-                          <b className="price-b">349,99 ₼</b>
-                        </strong>
-                      </div>
-
-                      <span className="duration">0% 18 ay</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="card1-actions  flex pl-5 bg-white  ">
-                  <div className="heart-icon">
-                    <IoIosHeartEmpty className="heart-iconsub" />
-                  </div>
-
-                  <div className="card1-compare">
-                    <img
-                      className="compare"
-                      src="https://kontakt.az/static/version1729078510/frontend/Swissup/breeze-customized/az_Latn_AZ/images/icon/compare.svg"
-                      alt=""
-                    />
-                  </div>
-                  <button className="action-btn">
-                    <i>
-                      <img
-                        src="https://kontakt.az/static/version1729078510/frontend/Swissup/breeze-customized/az_Latn_AZ/images/icon/addto.svg"
-                        alt=""
-                      />
-                    </i>
-                    <span className="btn-text">Səbətə at</span>
-                  </button>
-                </div>
-              </div>
             </div>
           </div>
         </div>

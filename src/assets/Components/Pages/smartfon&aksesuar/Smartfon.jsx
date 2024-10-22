@@ -1,17 +1,19 @@
-import React from "react";
+
 import "../smartfon&aksesuar/smartfon.css";
 import { IoIosHeartEmpty } from "react-icons/io";
 import Header from "../../Header/Header";
 import Footer from "../../Footer/Footer";
 
 const Smartfon = () => {
+
+
   return (
     <>
     <Header/>
     <div className="mb-36">
       <div className="category ">
         <div className="telefoniya  content-center items-center flex-col">
-          <div className="telefoniyaName ">
+          <div id="telee" className="telefoniyaName ">
             <h2>Telefoniya</h2>
           </div>
           <div className="telefoniyaItems  flex flex-wrap  ">
@@ -80,14 +82,14 @@ const Smartfon = () => {
           </div>
           <div className="topSatisItems flex gap-5 justify-center ">
             <div className="allItems rounded-lg">
-              <div className="card1-smartfon">
-                <div className="card1-smartfon-sub">
+              <div className="cardd1-smartfon">
+                <div className="cardd1-smartfon-sub">
                   <div
                     style={{ display: "flex", justifyContent: "end" }}
-                    className="card1-smartup"
+                    className="cardd1-smartup"
                   ></div>
 
-                  <div className="card1-smartfon-mid">
+                  <div className="cardd1-smartfon-mid">
                     <img
                       className="mid-img w-52 h-52 "
                       src="https://kontakt.az/media/catalog/product/cache/ec3348cd707f11bd7a951e83328510dc/t/m/tm-dg-acs-1109-tw-04656-d8de54b1.webp"
@@ -114,12 +116,12 @@ const Smartfon = () => {
                   </div>
                 </div>
               </div>
-              <div className="card1-actions  flex pl-5 bg-white  ">
+              <div className="cardd1-actions  flex pl-5 bg-white  ">
                 <div className="heart-icon">
                   <IoIosHeartEmpty className="heart-iconsub" />
                 </div>
 
-                <div className="card1-compare">
+                <div className="cardd1-compare">
                   <img
                     className="compare"
                     src="https://kontakt.az/static/version1729078510/frontend/Swissup/breeze-customized/az_Latn_AZ/images/icon/compare.svg"
@@ -139,14 +141,14 @@ const Smartfon = () => {
             </div>
 
             <div className="allItems rounded-lg  ">
-              <div className="card1-smartfon">
-                <div className="card1-smartfon-sub">
+              <div className="cardd1-smartfon">
+                <div className="cardd1-smartfon-sub">
                   <div
                     style={{ display: "flex", justifyContent: "end" }}
-                    className="card1-smartup"
+                    className="cardd1-smartup"
                   ></div>
 
-                  <div className="card1-smartfon-mid">
+                  <div className="cardd1-smartfon-mid">
                     <img
                       className="mid-img w-52 h-52"
                       src="https://kontakt.az/media/catalog/product/cache/ec3348cd707f11bd7a951e83328510dc/n/e/new_project_48__7-8455e94a.webp"
@@ -173,12 +175,12 @@ const Smartfon = () => {
                   </div>
                 </div>
               </div>
-              <div className="card1-actions  flex pl-5 bg-white  ">
+              <div className="cardd1-actions  flex pl-5 bg-white  ">
                 <div className="heart-icon">
                   <IoIosHeartEmpty className="heart-iconsub" />
                 </div>
 
-                <div className="card1-compare">
+                <div className="cardd1-compare">
                   <img
                     className="compare"
                     src="https://kontakt.az/static/version1729078510/frontend/Swissup/breeze-customized/az_Latn_AZ/images/icon/compare.svg"
@@ -197,17 +199,17 @@ const Smartfon = () => {
               </div>
             </div>
             <div className="allItems rounded-lg  ">
-              <div className="card1-smartfon">
-                <div className="card1-smartfon-sub">
+              <div className="cardd1-smartfon">
+                <div className="cardd1-smartfon-sub">
                   <div
                     style={{ display: "flex", justifyContent: "end" }}
-                    className="card1-smartup"
+                    className="cardd1-smartup"
                   ></div>
 
-                  <div className="card1-smartfon-mid">
+                  <div className="cardd1-smartfon-mid">
                     <img
                       className="mid-img w-52 h-52"
-                      src="https://kontakt.az/media/catalog/product/cache/ec3348cd707f11bd7a951e83328510dc/t/m/tm-dg-acs-1109-tw-0561_1-bcd31036.webp"
+                      src="https://kontakt.az/media/catalog/product/cache/ec3348cd707f11bd7a951e83328510dc/m/o/motorola_g31_4_128gb_grey_1_-3ba5bb07.webp"
                       alt=""
                     />
                   </div>
@@ -231,12 +233,12 @@ const Smartfon = () => {
                   </div>
                 </div>
               </div>
-              <div className="card1-actions  flex pl-5 bg-white  ">
+              <div className="cardd1-actions  flex pl-5 bg-white  ">
                 <div className="heart-icon">
                   <IoIosHeartEmpty className="heart-iconsub" />
                 </div>
 
-                <div className="card1-compare">
+                <div className="cardd1-compare">
                   <img
                     className="compare"
                     src="https://kontakt.az/static/version1729078510/frontend/Swissup/breeze-customized/az_Latn_AZ/images/icon/compare.svg"
@@ -255,17 +257,17 @@ const Smartfon = () => {
               </div>
             </div>
             <div className="allItems rounded-lg  ">
-              <div className="card1-smartfon">
-                <div className="card1-smartfon-sub">
+              <div className="cardd1-smartfon">
+                <div className="cardd1-smartfon-sub">
                   <div
                     style={{ display: "flex", justifyContent: "end" }}
-                    className="card1-smartup"
+                    className="cardd1-smartup"
                   ></div>
 
-                  <div className="card1-smartfon-mid">
+                  <div className="cardd1-smartfon-mid">
                     <img
                       className="mid-img w-52 h-52"
-                      src="https://kontakt.az/media/catalog/product/cache/ec3348cd707f11bd7a951e83328510dc/t/m/tm-dg-acs-1109-tw-0561_1-bcd31036.webp"
+                      src="https://kontakt.az/media/catalog/product/cache/ec3348cd707f11bd7a951e83328510dc/j/b/jbl_tune500_product-image_front_blue-1605x1605px-300x300-43277f9f.webp"
                       alt=""
                     />
                   </div>
@@ -289,12 +291,12 @@ const Smartfon = () => {
                   </div>
                 </div>
               </div>
-              <div className="card1-actions  flex pl-5 bg-white  ">
+              <div className="cardd1-actions  flex pl-5 bg-white  ">
                 <div className="heart-icon">
                   <IoIosHeartEmpty className="heart-iconsub" />
                 </div>
 
-                <div className="card1-compare">
+                <div className="cardd1-compare">
                   <img
                     className="compare"
                     src="https://kontakt.az/static/version1729078510/frontend/Swissup/breeze-customized/az_Latn_AZ/images/icon/compare.svg"
